@@ -1,0 +1,1 @@
+Get-Process -ID 10288 | Select-Object -ExpandProperty Threads | Select-Object ID
